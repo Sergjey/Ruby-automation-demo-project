@@ -1,8 +1,8 @@
 # Ruby-automation-demo-project
 
 ### The main tools on the project: 
-* [cucumber][cucumber] - to describe the steps of test scenarios in human language
-* [selenium-webdriver][selenium-webdriver], [site-prism][site-prism], [capybara][capybara], [RSpec][RSpec]- to testing UI
+* [cucumber](https://cucumber.io/docs/installation/ruby/) - to describe the steps of test scenarios in human language
+* [selenium-webdriver](https://www.selenium.dev/documentation/en/webdriver/), [site-prism](https://github.com/site-prism/site_prism), [capybara](https://github.com/teamcapybara/capybara), [RSpec](https://github.com/rspec/rspec) - to testing UI
 ***
 ## Project structure
 * **driver** - web-driver
@@ -15,11 +15,7 @@
 * **reports** - storing reports
 * **cucumber.yml** - profiles settings
 * **Gemfile** и **Gemfile.lock** - contains the require libraries
-[cucumber]: https://cucumber.io/docs/installation/ruby/
-[site-prism]: https://github.com/site-prism/site_prism
-[capybara]: https://github.com/teamcapybara/capybara
-[selenium-webdriver]: https://www.selenium.dev/documentation/en/webdriver/
-[RSpec]: https://github.com/rspec/rspec
+
 ***
 ## Commands for runs
 * **Standard run** - bundle exec cucumber -t "@tag_name"
