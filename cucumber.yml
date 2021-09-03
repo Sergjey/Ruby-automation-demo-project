@@ -1,0 +1,5 @@
+# -p html_report or -p default
+html_report: --format pretty --format html --out report<%= ENV['TEST_ENV_NUMBER'] %>.html
+
+# cucumber report
+default: --publish
