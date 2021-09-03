@@ -1,0 +1,6 @@
+default_env: PRELIVE
+
+browser:
+  window:
+    height: 1280
+    width: 1024
