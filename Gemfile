@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+  gem 'config'
+  gem 'cucumber'
+  gem 'selenium-webdriver'
+  gem 'site_prism'
+  gem 'capybara-screenshot'
+  gem 'capybara'
+  gem 'byebug'
+  gem 'rspec'
+  gem 'webdrivers'
