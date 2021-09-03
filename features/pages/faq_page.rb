@@ -1,0 +1,3 @@
+class FaqPage < BasePage
+  #
+end
