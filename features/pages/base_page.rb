@@ -6,5 +6,6 @@ class BasePage < SitePrism::Page
 
   # bottom base page
   element :bottom_email, "//p[@style='text-align: center;' and text()='serg.krapivin.qa@gmail.com  |   ']"
-  element :bottom_github_url, "//span[@style='text-decoration: underline;']/a[@href='https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FSergjey%2FRuby-automation-demo-project&sa=D&sntz=1&usg=AFQjCNEp0nT0_-pALmoc1n66SWUQq7teLw' and text()='Github']"
+  element :bottom_github_url, "//span[@style='text-decoration: underline;']/a[@href='http://www.google.com/url?q=http%3A%2F%2Fwww.linkedin.com%2Fin%2Fsergei-krapivin-aqa&sa=D&sntz=1&usg=AFQjCNFi7HMTi8wyI9U8eS9mMq74ZNNPFQ' and text()='Linkedin']"
+  element :bottom_linkedin, "//p[@style='text-align: center;' and text()='serg.krapivin.qa@gmail.com  |   ']"
 end

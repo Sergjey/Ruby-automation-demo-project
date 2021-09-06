@@ -18,6 +18,7 @@ Feature: 1.0 Checking texts on pages
     *     Choose menu "<menu_name>"
     Then  Expect element "bottom_email"
     Then  Expect element "bottom_github_url"
+    Then  Expect element "bottom_linkedin"
     Examples:
       | menu_name |
       | Main      |
