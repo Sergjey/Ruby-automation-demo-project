@@ -21,3 +21,7 @@ end
 When(/^Scroll to bottom$/) { page.execute_script "window.scrollBy(0,10000)" }
 
 When(/^Switch to new tab$/) { @base_page.switch_to_new_tab }
+
+Then(/^Expect no element "([^"]*)"$/) do |selector|
+  @base_page.wait_until_element_invisible(selector)
+end
