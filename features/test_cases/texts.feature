@@ -16,6 +16,7 @@ Feature: 1.0 Checking texts on pages
   Scenario Outline: Checking text and link at the bottom of the page
     Given Open home page
     *     Choose menu "<menu_name>"
+    *     Scroll to bottom
     Then  Expect element "bottom_email"
     Then  Expect element "bottom_github_url"
     Then  Expect element "bottom_linkedin"
