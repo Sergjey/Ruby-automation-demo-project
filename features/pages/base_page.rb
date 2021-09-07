@@ -19,4 +19,5 @@ class BasePage < SitePrism::Page
   element :bottom_linkedin, "//p[@style='text-align: center;' and text()='serg.krapivin.qa@gmail.com  |   ']"
 
   element :github_button, "//div[@title='Github']"
+  element :github_repo_button, "//a[@aria-label='Github repository']"
 end
