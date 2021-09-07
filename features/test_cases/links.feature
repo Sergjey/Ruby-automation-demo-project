@@ -20,3 +20,14 @@ Feature: 2.0 Checking links
     | History   | Linkedin | QA Automation Engineer       |
     | FAQ       | Github   | Ruby-automation-demo-project |
     | FAQ       | Linkedin | QA Automation Engineer       |
+
+  @faq_links
+  Scenario: Checking that text in faq page is link
+    Given Open home page
+    *     Choose menu "FAQ"
+    Then  Text is "What is automation testing and why we should use it?" link or not
+    Then  Text is "What is Capybara?" link or not
+    Then  Text is "What is Site Prism?" link or not
+    Then  Text is "What is Cucumber?" link or not
+    Then  Text is "What is RSpec?" link or not
+

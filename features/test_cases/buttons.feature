@@ -22,14 +22,14 @@ Feature: 3.0 Checking buttons
       | History   |
       | FAQ       |
 
-    @github_repo_button
-    Scenario: Checking bottom github_repository button at the main page
-      Given Open home page
-      *     Scroll to bottom
-      Then  Expect element "github_repo_button"
-      *     Click on the element at main page "github_repo_button"
-      *     Switch to new tab
-      Then  Page has text "Ruby-automation-demo-project"
+  @github_repo_button
+  Scenario: Checking bottom github_repository button at the main page
+    Given Open home page
+    *     Scroll to bottom
+    Then  Expect element "github_repo_button"
+    *     Click on the element at main page "github_repo_button"
+    *     Switch to new tab
+    Then  Page has text "Ruby-automation-demo-project"
 
   @no_github_repo_button
   Scenario Outline: Checking absence github repository button at the history and faq pages
